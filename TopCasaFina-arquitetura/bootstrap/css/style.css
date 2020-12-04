@@ -1,0 +1,131 @@
+.carousel-inner .item img{
+object-fit: cover;
+width: 100%;
+height: 100%;
+}
+
+.carousel-inner .item{
+    height: 35vh;
+    width: 100%;
+    min-height: 200px;
+}
+
+.panel-group {
+	margin-top:20px;
+}
+img {
+	object-fit: cover;
+	object-position: top center;
+	width:100%;
+	height:100vh;
+}
+
+ html, body{
+    height: 100vh;
+}
+
+
+.navbar{
+	margin-bottom:0;
+}
+
+.topCasaFina-bannerWrapper {
+	color: #FFF;
+	background-color: rgba(0, 0, 0, .5);
+	padding: 20px;
+	width: 80%;
+	border-radius: 5px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: .3s;
+}
+
+header h1 {
+	margin-top:0;
+}
+
+.titulo-depoimentos {
+	width:100%;
+	background:#0275D8;
+	padding:25px;
+	display:block;
+	color:#FFF;
+	margin-bottom:0;
+	font-size:24px;
+}
+
+.contato-select, 
+.grupo-radio { 
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.contato-select {
+	vertical-align: top;
+}
+
+.contato-select {
+    float: right;
+}
+
+.grupo-radio .radio:first-child {
+    margin-top: 0;
+}
+
+
+footer {
+	background:#333;
+	font-size:17px;
+	color:#FFF;
+	padding:2em;
+	margin-top:10px;
+}
+
+footer adress:last-chlid {
+	margin-bottom:0;
+
+}
+
+@media(min-width:768px) {
+	.panel-group {
+		margin-top:0;
+	}
+	#sobre-nos {
+		margin-bottom:15px;
+	}
+	.carousel-inner .item {
+		height:80vh;
+	}
+	.carousel-caption h3  {
+		font-size:3em;
+	}
+	.carousel-caption p {
+		font-size:1.5em;
+	}
+	
+	#nossos-projetos {
+	margin:0 75px 0 75px;
+	}
+
+	.imagem-depoimentos1 {
+		object-fit:cover;
+		object-position: 0 80%;
+	}
+
+	.imagem-depoimentos2 {
+		object-fit:cover;
+		object-position: 0 40%;
+	}
+
+	.imagem-depoimentos3 {
+		object-fit:cover;
+		object-position: 0 50%;
+	}
+}
+
+
+
+
